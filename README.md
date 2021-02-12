@@ -4,7 +4,7 @@ DC GAN for low resolution logo generation
 Attached notebook contains an implementation (tensorflow 2.2.0) of vanilla/least squares DC GAN for generating
 low resolution logos.
 
-# Geberated examples:
+# Generated examples:
 
 ![Generated Logos](https://github.com/nslyubaykin/low_res_logos_gan/blob/master/gen_examples.png)
 
