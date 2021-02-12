@@ -1,5 +1,4 @@
-# low_res_logos_gan
-DC GAN for low resolution logo generation
+# DC GAN for low resolution logo generation
 
 Attached notebook contains an implementation (tensorflow 2.2.0) of vanilla/least squares DC GAN for generating
 low resolution logos.
@@ -14,6 +13,7 @@ augumented with random spins, flips and hue adjustments.
 # Training dynamics:
 Epoch-1
 ![Epoch-1](https://github.com/nslyubaykin/low_res_logos_gan/blob/master/training_progress_imgs/index.png)
+\n
 Epoch-50
 ![Epoch-50](https://github.com/nslyubaykin/low_res_logos_gan/blob/master/training_progress_imgs/ep50.png)
 Epoch-130
