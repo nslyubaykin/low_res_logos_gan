@@ -7,7 +7,12 @@ low resolution logos.
 
 ![Generated Logos](https://github.com/nslyubaykin/low_res_logos_gan/blob/master/gen_examples.png)
 
-Training data contains 12180 images parsed from the web. To simplify generation process for vanilla GAN, all logos containing text were filtered out using EAST text detector. I used this pre-trained model: https://raw.githubusercontent.com/oyyd/frozen_east_text_detection.pb/master/frozen_east_text_detection.pb. For the purpose of GAN training data wasaugumented with random spins, flips and hue adjustments.
+Training data contains 12180 images parsed from the web. To simplify generation process for vanilla GAN, all logos containing text were filtered out using OpenCV and  EAST text detector. I used this pre-trained model: https://raw.githubusercontent.com/oyyd/frozen_east_text_detection.pb/master/frozen_east_text_detection.pb.  [This](https://github.com/nslyubaykin/low_res_logos_gan/blob/master/logo_text_detection.ipynb) notebook will walk you through text detection. For the purpose of GAN training data wasaugumented with random spins, flips and hue adjustments.<br/>
+
+# Data augumentation:
+![Data augumentation 1](https://github.com/nslyubaykin/low_res_logos_gan/blob/master/data_augumentation/data_augumentation.png)
+
+![Data augumentation 2](https://github.com/nslyubaykin/low_res_logos_gan/blob/master/data_augumentation/data_augumentation1.png)
 
 # Training dynamics:
 Epoch-1<br/>
