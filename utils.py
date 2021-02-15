@@ -58,8 +58,9 @@ def show(image):
     plt.imshow(image.numpy())
     plt.axis('off')
     
-def show_tf_batch(tf_batch, imtype='rgb', n_img=25, to_print=None):
+def show_tf_batch(tf_batch, imtype='rgb', n_img = 25, to_print=None):
     images = tf_batch.numpy()
+    images = (images + 1) / 2
     sqrtn = int(np.ceil(np.sqrt(n_img)))
     # select subset
     images = images[:n_img]
